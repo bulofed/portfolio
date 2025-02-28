@@ -13,8 +13,12 @@ const projects = [
     href: "https://github.com/bulofed/Cryptr",
     imgSrc: "/cryptr.png",
     description: "Cryptr is a web escape game with multiple levels. The goal is to escape the room by solving puzzles. The game is made with Nuxt and MongoDB."
+  },
+  {
+    href: "",
+    imgSrc: "/dungeons.png",
+    description: "DungeonVR is a VR game where you have to escape a dungeon. I have worked on this project with a team of 5 people using Unreal Engine. I've made the locomotion system (snap-turn, move towards head and joystick mode) as well as the grabbing system."
   }
-  // Add more projects as needed
 ];
 
 const Page = () => {
